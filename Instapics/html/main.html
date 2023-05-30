@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit:wght@300&family=Oswald:wght@200&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+<script src="../js/main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="direct">
+            <img class="image" src="../img/imagemdm.png" alt="">
+        </div>
+        <div class="login">
+            <div class="logar">
+                <form method="post" action="">
+                    <img class="logo" src="../img/logo1.png" alt="">
+                    <p>
+                        <input class="send" id="user_login" name="user_login" type="text" placeholder="E-mail,usuário ou número"
+                            required />
+                    </p>
+                    <p>
+                        <input class="send" id="senha_login" name="senha_login" type="text" placeholder="Senha" required>
+                    </p>
+                    <p>
+                        <button class="log" type="reset" onclick="verify()">Entrar</button>
+                    </p>
+                </form>
+
+                <div id="linhas">
+                    <div class="line"></div>
+                    <p class="detail">OU</p>
+                    <div class="line"></div>
+                </div>
+                <div class="facebook">
+                    <img class="facebookimg" src="../img/faceb.png" alt="Icone Facebook"><a
+                        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%252215h6glkewxoy4aesewf8sd3cd3lf9kh1gnd5hv1egawx611q4klx%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Dpt_BR%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D34a4e22a-be57-45a8-9a12-5fad6c445a46%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252215h6glkewxoy4aesewf8sd3cd3lf9kh1gnd5hv1egawx611q4klx%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=pt_BR&pl_dbl=0">Entre com Facebook</a>
+                </div>
+                <br><a class="pass" href="#">Esqueceu a senha?</a>
+            </div>
+
+            <div class="cadastro">
+                <p>
+                    Não tem uma conta? <a href="cadastro.html">Cadastre-se</a>
+                </p>
+            </div>
+            <div class="app">
+                <p>Obtenha o aplicativo</p>
+                <div>
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D29BA363C-5DD3-4BE1-9137-E5B2C5CE1F0A%26utm_content%3Dlo%26utm_medium%3Dbadge"><img
+                            class="imageapp" src="../img/GooglePlay.png" alt="GooglePlay"></a>
+                    <img class="imageapp" src="../img/Microsoft.png" alt="Microsoft">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
